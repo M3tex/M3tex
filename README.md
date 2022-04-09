@@ -9,7 +9,7 @@ class M3tex:
         self.location = "France"
     
     def greet(self, visitor):
-        print(f"Hey {visitor.name} ! My name is {self.username}, I am a {self.occupation} from {self.location} !")
+        print(f"Hey {visitor} ! My name is {self.username}, I am a {self.occupation} from {self.location} !")
 
 
 if __name__ == '__main__':
